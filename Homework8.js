@@ -30,3 +30,22 @@
 //     num=num+1;
 //     console.log(num, n)
 // }
+// var n;
+// var num=0;
+// for (n=1000; n>50;){
+//     n=n/2;
+//     num+=1;
+//     console.log(n);}
+// let fruits = ["Яблоко", "Апельсин", "Слива"];
+//
+// // проходит по значениям
+// for (let frui of fruits) {
+//     alert( frui );
+// }
+let styles = ["Джаз", "Блюз"];
+styles.push("Рок-н-Ролл");
+// styles[0]= "dd";
+styles[Math.floor((styles.length - 1) / 2)] = "Классика";
+alert( styles.shift() );
+styles.unshift('Рэп', 'Рэгги');
+alert(styles);
